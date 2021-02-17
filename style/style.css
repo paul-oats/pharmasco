@@ -1107,7 +1107,8 @@ section.product {
 }
 
 .products__item-subtitle {
-  width: 802px;
+  max-width: 800px;
+  width: 100%;
   padding: 17px 0px 22px;
 
   display: inline-block;
