@@ -1,0 +1,355 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head profile="http://gmpg.org/xfn/11">
+		<meta charset="utf-8">
+    	<title>Pharmasco</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./style/style.css" type="text/css">
+	</head>
+	<body>
+		<header class="header">
+			<a href="#" class="logo"><img src="images/logo.png"/></a>
+			<button
+			type="button"
+			aria-expanded="false"
+			aria-controls="mob__menu-container"
+			class="menu-button"
+			data-menu-button
+		  >
+			<svg
+			  width="18"
+			  height="18"
+			  aria-label="Переключатель мобильного меню"
+			  aria-expanded="false"
+			  aria-controls="nav-container"
+			>
+			  <use
+				class="icon-menu"
+				href="./images/icons/sprite.svg#icon-menu-nav-mob"
+			  ></use>
+			  <use
+				class="icon-cross"
+				href="./images/icons/sprite.svg#icon-close-nav-btn"
+			  ></use>
+			</svg>
+		  </button>
+			<div class="mob__menu-container" id="nav-container" data-menu>
+				<ul class="menu">
+					<li class="menu__item">
+						<a class="menu__link redline" href="#">Про компанію</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link redline" href="#">Переваги</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link redline" href="#">Як обрати</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link redline" href="#">Наступні дії</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link redline" href="#">Про ГРВІ</a>
+					</li>
+				</ul>
+				<div >
+					<a class="header__button button" href="#">Найближча аптека</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="hero mob__hidden">
+			<div class="background"></div>
+			<img class="virus_1 mob__hidden" src="images/virusNew.png"/>
+			<img class="virus_2 mob__hidden" src="images/virusNew.png"/>
+			<img class="virus_3 mob__hidden" src="images/virusNew.png"/>
+			<img class="virus_4 mob__hidden" src="images/virusNew.png"/>
+
+			<div class="textBox container">
+				<h2>Самотестування НА COVID-19</h2>
+				<h3>Просто <b>КУПИТИ.</b> Просто <b>ЗРОБИТИ.</b> Просто <b>ДІЗНАТИСЬ</b></h3>
+				<div>
+					<h4><b>CITO TEST® COVID-19 Ag</b></h4>
+					<p>при перших симптомах та впродовж <br>першого тижня після їх появи</p>
+
+					<a class="bigbutton" href="#">Знайти в аптеці</a>
+				</div>
+				<!-- <p id="special_text"></p> -->
+			</div>
+			<img class="banner_img mob__hidden" id="img_2" sp-week="week_2" sp-text="CITO TEST® COVID-19 – швидкий тест для виявлення антитіл (IgM та IgG) до коронавірусу (SARS-CoV-2) у крові." src="images/__Cito_test_3D.png" />
+			<img class="banner_img mob__hidden" id="img_1" sp-week="week_1" sp-text="CITO TEST® COVID-19 Ag - швидкий тест для виявлення компонентів коронавірусу у мазках з носоглотки осіб з підозрою на COVID-19." src="images/Layer_new.png"/>
+			<img class="banner_img mob__hidden" id="img_3" sp-week="week_1" sp-text="CITO TEST® Грип - швидкий тест для виявлення компонентів грипу типу А та типу В у мазках з носа у осіб з підозрою на грип." src="images/Cito_test3_3D.png" width="324px"/>
+<!-- блок преимущества -->
+			<div class="hero__features container">
+	<ul class="features">
+		<li class="features-item">
+			<div class="second__block-icon">
+				<img src="./images/clock_icon.svg" alt="icon">
+			</div>
+			<p class= "features-subtitle">
+				Швидко
+			</p>
+			<p class="features-text">
+				результат за 15 хв
+			</p>
+		</li>
+		<li class="features-item">
+			<div class="second__block-icon">
+				<img src="./images/hand_icon.svg" alt="icon">
+			</div>
+			<p class= "features-subtitle">
+				Зручно 
+			</p>
+			<p class="features-text">
+				проста процедура <br>тестування
+			</p>
+		</li>
+		<li class="features-item">
+			<div class="features-icon">
+				<img src="./images/house_icon.svg" alt="icon">
+			</div>
+			<p class= "features-subtitle">
+				Доступно
+			</p>
+			<p class="features-text">
+				тестування можна зробити <br>самостійно вдома або на роботі
+			</p>
+		</li>
+		<li class="features-item">
+			<div class="features-icon">
+				<img src="./images/like_icon.svg" alt="icon">
+			</div>
+			<p class= "features-subtitle">
+				Cхвалено МОЗ
+			</p>
+			<p class="features-text">
+				верифіковано лабораторним центром <br>МОЗ та схвалено до самотестування
+			</p>
+		</li>
+	</ul>
+			</div>
+			</section>
+			<section class="second container">
+			<img class="second__img-virus-1 mob__hidden" src="./images/virusNew.png" alt="virus" width="205">
+
+			<img class="second__img-virus-2 mob__hidden" src="./images/virusNew.png" alt="virus" width="101">
+
+			<img class="second__img-virus-3 mob__hidden" src="./images/virusNew.png" alt="virus" width="49">
+
+			<div class="second__textBox">
+				<h2 class="section__title">Чому варто використовувати швидкі<br>
+				<span class="section__title section__title-redline">тести для діагностики COVID-19?</span>
+				</h2>
+				<p class="second__textBox-text text-s"><b>Швидкі тести від компанії Фармаско допоможуть:</b></p>
+				<ul class="second__textBox-items">
+					<li class="second__textBox-item text-s needPadding">Виявити збудника ГРВІ швидко в домашніх умовах або на підприємстві</li>
+					<li class="second__textBox-item  text-s">Знизити вартість тестування у порівнянні з лабораторними методами <br>діагностики</li>
+					<li class="second__textBox-item  text-s">Зменшити потребу контактувати з великою кількістю людей у чергах <br>медичних закладів та лабораторій, а отже зменшити ризик зараження</li>
+					<li class="second__textBox-item  text-s">Швидко звернутися до фахівців за допомогою і отримати відповідний <br>обсяг лікувальних, діагностичних і карантинно-обмежувальних заходів та розпочати <br>пошук контактних осіб</li>
+				</ul>
+			</div>
+
+			</section>
+			<section class="product">
+			<h2 class="section__title section__title-redline ">Який обрати тест?
+			</h2>
+			<p class="product__title-text text-s">Обираючи тест слід звернути увагу на наявність симптомів ГРВІ та їх тривалість.
+			<br><b>Робіть правильний тест у правильний час!</b></p>
+			<ul class="products">
+				<li class="products__item products__item-redBorder">
+					<div class="products__item-subtitle red">
+						<h3 class="products__item-subtitle-text">CITO TEST® COVID-19 Ag</h3>
+					</div>
+					<div class="wrapper container">
+						<!-- <div class="blue-backgraund"></div> -->
+						<div class="products__item-img">
+							<img src="./images/Layer_new.png" alt="" 
+							width="832px">
+						</div>
+						<div class="products__item-about">
+							<span class="products__item-about-content text-s"
+							>
+								<p>
+								<b>CITO TEST® COVID-19 Ag </b> виявляє антигени <br>коронавірусу у мазках з носоглотки у осіб 
+								<br>з ознаками ГРВІ при перших симптомах та 
+								<br>протягом першого тижня після їх появи
+								</p>
+	
+								<p class="products__item-about-content-text"><b> Цей тест для тебе, якщо:</b>
+									<p class="products__item-about-content-text-2"> Маєш симптоми ГРВІ</p>
+									<p class="products__item-about-content-text-2">Симптоми тривають 
+									<b>не довше 1 тижня</b></p>
+							</p>
+						</span>
+								
+						</div>
+						<div class="products__item-video">
+							<video
+  							src="#"
+  							poster="./images/poster-1.png"
+  							width="1336px"
+  							controls
+  							autoplay
+  							loop
+  							preload="auto"
+							></video>
+						</div>
+						<div class="products__item-button mob__hidden">
+							<a class="button red top product__btn" href="#">Підібрати тест</a>
+						</div>
+					</div>
+				</li>
+				<li class="products__item products__item-redBorder">
+					<div class="products__item-subtitle green">
+						<h3 class="products__item-subtitle-text ">CITO TEST® Грип</h3>
+					</div>
+					<div class="wrapper container">
+					<div class="products__item-img">
+						<img src="./images/Cito_test3_3D.png" alt="" 
+						width="832px">
+					</div>
+					<div class="products__item-about">
+						<span class="products__item-about-content text-s"
+						>
+							<p>
+							<b>CITO TEST® Грип</b> виявляє антигени грипу типу А та типу <br>В у мазках з носа. Допомагає  при перших симптомах <br>підтвердити грип А або В, своєчасно звернутися до <br>лікаря та вчасно отримати специфічну терапію
+							</p>
+							<p class="products__item-about-content-text"> <b>Цей тест для тебе, якщо:</b>
+								<p class="products__item-about-content-text-2"> Маєш симптоми ГРВІ</p>
+								<p class="products__item-about-content-text-2">Симптоми тривають <b>не довше 3 днів</b></p>
+						</p>
+					</span>
+							
+					</div>
+					<div class="products__item-video">
+						<video
+						src="#"
+  						poster="./images/poster-2.png"
+  						width="1336px"
+  						controls
+  						autoplay
+  						loop
+  						preload="auto"
+						></video>
+					</div>
+					<div class="products__item-button mob__hidden">
+						<a class="button red top product__btn" href="#">Підібрати тест</a>
+					</div>
+				</div>
+				</li>
+				<li class="products__item products__item-blueBorder">
+					<div class="products__item-subtitle night-blue">
+						<h3>CITO TEST® COVID-19</h3>
+					</div>
+					<div class="wrapper container">
+					<div class="products__item-img">
+						<img src="./images/__Cito_test_3D.png" alt="" 
+						width="832px">
+					</div>
+					<div class="products__item-about">
+						<span class="products__item-about-content text-s"
+						>
+							<p>
+							<b>CITO TEST®COVID-19</b> виявляє наявність антитіл <br> до коронавірусу у крові. Допомагає виявити імунну <br> відповідь організму на вірус. Доцільно проводити з <br> 2го тижня захворювання або з метою  <br>встановлення
+							</p>
+
+							<p class="products__item-about-content-text"> <b>Цей тест для тебе, якщо:</b>
+								<p class="products__item-about-content-text-2">Маєш симптоми ГРВІ і вони тривають довше тижня</p>
+								<p class="products__item-about-content-text-2">Симптомів не маєш, проте хочеш перевірити чи перехворів раніше</p>
+						</p>
+					</span>
+							
+					</div>
+					<div class="products__item-video">
+						<video
+						  src="#"
+						  poster="./images/poster-3.png"
+						  width="1336px"
+						  controls
+						  autoplay
+						  loop
+						  preload="auto"
+						></video>
+					</div>
+					<div class="products__item-button mob__hidden">
+						<a class="button red product__btn" href="#">Підібрати тест</a>
+					</div>
+				</div>
+				</li>
+			</ul>
+			<div class="doit">
+				<h2 class="section__title section__title-redline ">У Вас симптоми COVID-19?
+				</h2>
+				<p class="doit__text">Не зволікайте! Дійте!</p>
+				<div class="doit__btn">
+					<a class="button red top" href="#">Найближча аптека</a>
+				</div>
+				<img class="doit__img-virus-1 mob__hidden" src="./images/virusNew.png" alt="virus" width="81">
+
+				<img class="doit__img-virus-2 mob__hidden" src="./images/virusNew.png" alt="virus" width="81">
+	
+				<img class="doit__img-virus-3 mob__hidden" src="./images/virusNew.png" alt="virus" width="101">
+
+				<img class="doit__img-virus-4" src="./images/virusNew.png" alt="virus" width="101">
+			</div>
+			</section>
+			<section class="afterTest">
+			<h2 class="section__title">Що робити після отримання <br><span class="section__title section__title-redline">результату?
+			</span></h2>
+			<div class="afterTest__text afterTest__text-plus container">
+				<p class="afterTest-subtitle">Позитивний результат на наявність інфекції Covid-19.</p>
+				<p class="afterTest-subtitle-text text-s">При отриманні позитивного результату слід негайно самоізолюватися, щоб не інфікувати своїх <br> рідних та близьких, а також поінформувати всіх контактних осіб, щоб вони були більш уважними 
+				<br>до свого здоров’я; звернутися до лікаря або <a href="#">за телефоном гарячої лінії МОЗ України</a>, щоб отримати <br>належну медичну допомогу, своєчасно вжити всіх необхідних санітарно-протиепідемічних заходів;</p>
+			</div>
+			<div class="afterTest__text afterTest__text-minus container">
+				<p class="afterTest-subtitle">Негативні результати не виключають наявність інфекції Covid-19.</p>
+				<p class="afterTest-subtitle-text text-s">Найпоширенішими причинами хибнонегативних результатів є застосування тестів в неправильний <br>час, помилки при заборі зразку та низька концентрація вірусу або антитіл в зразку.</p>
+			</div>
+			<img class="afterTest__img-virus-1 mob__hidden" src="./images/virusNew.png" alt="virus" width="96">
+			<img class="afterTest__img-virus-2 mob__hidden" src="./images/virusNew.png" alt="virus" width="162">
+			</section>
+			<section class="reference container">
+			<h2 class="section__title">Застосування швидких 		тестів 
+				<br>для діагностики COVID-19 <span class="section__title-redline  upperCase">рекомендовано:</span>
+			</h2>
+			<div>
+			<ul class="reference__list">
+				<li class="reference__list-logo"><img src="./images/WHO-logo-short.png" alt="logo WHO"></li>
+				<li class="reference__list-logo"><img src="./images/US_CDC_logo-2.png" alt="logo US CDC"></li>
+				<li class="reference__list-logo"><img src="./images/FDA-logo-3.png" alt="logo FDA"></li>
+				<li class="reference__list-logo"><img src="./images/MOZ-logo-short.png" alt="logo MOZU"></li>
+			</ul>
+			</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<!-- <div class="warning">
+				<img src="./images/beW1.png" alt="warning" >
+			</div> -->
+			<div class="footer__menu">
+				<a class="footer__menu-link footer__contacts-link-address" href="https://goo.gl/maps/UuYJ1QrEfgUp9DkTA"><img src="./images/icon_mapPoint.svg" alt=""> Україна, Київська обл., Вишгород, вул. Шолуденко, буд. 15г</a>
+				<a class="footer__menu-link  footer__contacts-link-mail" href="mailto:contact@pharmasco.com"><img src="./images/icon_letter.svg" alt=""> contact@pharmasco.com
+				</a>
+				<a class="footer__menu-link  footer__contacts-link-tel" href="tel:+380445370804"><img src="./images/icon_phone.svg" alt="">(044) 537 08 04
+				</a>
+				<!-- <ul class="footer__contact">
+					<li class="footer__contacts-item"><a class="footer__contacts-link footer__contacts-link-address" href="https://goo.gl/maps/UuYJ1QrEfgUp9DkTA">Україна, Київська обл., Вишгород, вул. Шолуденко, буд. 15г</a>
+					</li>
+					<li class="footer__contacts-item">
+						<a class="footer__contacts-link footer__contacts-link-mail" href="mailto:contact@pharmasco.com">contact@pharmasco.com
+						</a>
+					</li>
+					<li class="footer__contacts-item">
+						<a class="footer__contacts-link footer__contacts-link-tel" href="tel:+380445370804">(044) 537 08 04
+						</a>
+					</li>
+				</ul> -->
+			</div>
+			<!-- <a class="button red top" href="#">Найближча аптека</a> -->
+		</footer>
+		<script src="./js/menu.js"></script>
+		
+		<!-- <script src="js/main.js"></script> -->
+	</body>
+</html>
