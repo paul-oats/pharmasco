@@ -346,8 +346,9 @@ body {
 .menu {
   display: flex;
 
-  margin-left: 221px;
+  /* margin-left: 221px; */
 }
+
 @media screen and (max-width: 1000px) {
   .menu {
     display: block;
@@ -398,7 +399,7 @@ body {
 }
 
 .header__button {
-  margin-left: 420px;
+  /* margin-left: 420px; */
 }
 
 @media screen and (max-width: 1000px) {
@@ -437,12 +438,18 @@ body {
 .mob__menu-container {
   display: flex;
   align-items: center;
+
+  width: 100%;
+  margin-left: 221px;
+  justify-content: space-between;
+
 }
 
 @media screen and (max-width: 1000px) {
   .mob__menu-container {
     display: block;
 
+    margin: 0;
     padding-top: 40px;
     padding-bottom: 40px;
 
@@ -1668,7 +1675,7 @@ section.product {
   .footer__menu {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 
     padding-top: 15px;
     font-weight: normal;
@@ -1694,11 +1701,12 @@ section.product {
   background-image: url(../images/icon_mapPoint.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 @media screen and (max-width: 1000px) {
   .footer__contacts-link-address::before {
     top: 17px;
-    left: -10px;
+    left: -15px;
   
     width: 10px;
     height: 10px;
@@ -1722,14 +1730,16 @@ section.product {
   background-image: url(../images/icon_letter.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 @media screen and (max-width: 1000px) {
   .footer__contacts-link-mail::before {
-    top: 5px;
+    top: 3px;
     left: -15px;
   
     width: 10px;
     height: 10px;
+
   }
 }
 
@@ -1749,6 +1759,8 @@ section.product {
   background-image: url(../images/icon_phone.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
+  
 }
 @media screen and (max-width: 1000px) {
   .footer__contacts-link-tel::before  {
@@ -1763,9 +1775,12 @@ section.product {
 @media screen and (max-width: 1000px) {
   .footer__contacts-link-address {
     order: 3;
+    transform: translateX(14px);
+
   }
   .footer__contacts-link-mail {
     order: 1;
+    transform: translateX(15px);
   }
   .footer__contacts-link-tel {
     order: 2;
